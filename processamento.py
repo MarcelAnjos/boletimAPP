@@ -14,11 +14,11 @@ def validar_notas(notas):
 
     return True
 
-def calc_media(notas=[]):
-    media= sum(notas) / len(notas)
-    notas = notas.append(media)
-    if media <=0:
-        return print("ERRO: Valores incorretos!")
-    if media >10:
-        media = 10
+def calc_media(notas):
+    validar_notas(notas)
+
+    media = sum(notas) / len(notas)
+
+    notas.append(media)  # sem sobrescrever a variável
+
     return media
