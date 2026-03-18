@@ -1,0 +1,47 @@
+# Design Thinking e Gestão Ágil — SENAI
+
+## Mapa de Empatia
+
+**Usuário:** Coordenação Acadêmica e Professores
+
+### O que fala
+
+* Os dados chegam desorganizados
+* O processo de análise aluno por aluno é demorado
+* As informações nem sempre são confiáveis
+* É necessário identificar rapidamente alunos que precisam de apoio
+
+### O que pensa
+
+* É necessário um sistema confiável
+* Decisões não podem ser baseadas em dados incorretos
+* O processo poderia ser automatizado
+* Há perda de tempo com tarefas repetitivas
+
+### O que vê
+
+* Planilhas com dados inconsistentes
+* Informações incompletas
+* Falta de padronização nas notas
+* Dificuldade em visualizar o desempenho geral dos alunos
+
+### O que ouve
+
+* Reclamações sobre erros nas análises
+* Pressão por resultados rápidos
+* Necessidade de melhorar o acompanhamento acadêmico
+
+### Dores (Pains)
+
+* Retrabalho constante
+* Erros manuais
+* Baixa confiabilidade dos dados
+* Lentidão na tomada de decisão
+
+### Ganhos (Gains)
+
+* Automatização do processo
+* Maior confiabilidade das informações
+* Agilidade na análise de desempenho
+* Relatórios claros e organizados
+* Identificação rápida de alunos em risco ou com alto desempenho
