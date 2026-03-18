@@ -19,6 +19,31 @@ def calc_media(notas):
 
     media = sum(notas) / len(notas)
 
-    notas.append(media)  # sem sobrescrever a variável
+    notas.append(media) 
 
     return media
+
+def status(lista_alunos):
+    recuperacao = []
+    aprovados = []
+    top_students = []
+    maior_media = -1
+
+    for nome, notas in lista_alunos:
+        validar_notas(notas)
+        
+        media = calc_media(notas)
+
+        if media < 7.0:
+            recuperacao.append(nome)
+
+        else:
+            aprovados.append(nome)
+        
+        if media > maior_media:
+            maior_media = media
+            top_students = [nome]
+        elif media == maior_media:
+            top_students.append(nome)
+
+    return recuperacao, aprovados, top_students, maior_media
